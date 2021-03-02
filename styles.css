@@ -229,7 +229,7 @@ button:hover {
     height: 5vh;
 }
 
-@media (max-width:1800px) {
+@media (max-width:1200px) {
     .wrapper {
         font-size: 20px;
     }
