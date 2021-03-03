@@ -6,6 +6,7 @@
     background-color: white;
     color: black;
     scroll-behavior: smooth;
+    font-size: 17px;
 }
 
 header {
@@ -27,6 +28,7 @@ header {
 }
 
 .logo a {
+    font-size: 0.8em;
     text-decoration: none;
 }
 
@@ -37,15 +39,18 @@ header {
 .nav-links li {
     display: inline-block;
     padding: 0px 20px;
+    font-size: 1em;
 }
 
 .nav-links li a {
     transition: all 0.3s ease 0s;
     text-decoration: none;
+    font-size: 1em;
 }
 
 .nav-links li a:hover {
     color:#b1f4cf;
+    font-size: 1em;
 }
 
 .nav-links ::after {
@@ -115,7 +120,6 @@ button:hover {
     display: flex;
     justify-content: center;
     position: absolute;
- 
     width: 100%;
     height: 100vh;
     z-index: 21;
@@ -131,41 +135,42 @@ button:hover {
 
 }
 
-.project1-box1 {
+#project1-box1 {
+    margin-top: 10vh;
     display: flex;
     flex-direction: row;
-    height: 49vh;
+    height: 65vh;
     width: 100%;
     background-color: green;
 }
 
 .project1-box2 {
-    height: 49vh;
+    height: 65vh;
     width: 100%;
 
 }
 
 .project1-box1-left{
     width: 35vw;
-    height: 49vh;
+    height: 65vh;
     background-color: black;
 }
 
 .project1-box1-left img {
     width: 35vw;
-    height: 49vh;
+    height: 65vh;
     object-fit: contain;
 }
 
 .project1-box1-right {
     width: 35vw;
-    height: 49vh;
-
-    padding-left: 1vw;
+    height: 65vh;
+    padding-left: 2vw;
 }
 
 .project1-box1-right h4 {
-    font-size: 1.7em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.9em;
     text-align: center;
 }
 
@@ -174,14 +179,25 @@ button:hover {
 }
 
 .project1-box1-right p {
-    font-size: 1.08em;
+    font-size: 1em;
 }
 
 
-
-
-
-
 @media (max-width:1200px) {
+    * {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:850px) {
+    * {
+        font-size: 14px;
+    }
+
     
+}
+
+@media (max-width:695px) {
+    
+        /*switch to mobile*/
 }
