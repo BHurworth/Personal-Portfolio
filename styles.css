@@ -129,10 +129,9 @@ button:hover {
 .project-wrapper {
     display: flex;
     flex-direction: column; 
-    gap: 2vh;
+    gap: 100vh;
     width: 70%;
     height: 100vh;
-
 }
 
 #project1-box1 {
@@ -141,19 +140,16 @@ button:hover {
     flex-direction: row;
     height: 65vh;
     width: 100%;
-    background-color: green;
 }
 
 .project1-box2 {
     height: 65vh;
     width: 100%;
-
 }
 
 .project1-box1-left{
     width: 35vw;
     height: 65vh;
-    background-color: black;
 }
 
 .project1-box1-left img {
@@ -165,7 +161,8 @@ button:hover {
 .project1-box1-right {
     width: 35vw;
     height: 65vh;
-    padding-left: 2vw;
+    margin-left: 2vw;
+
 }
 
 .project1-box1-right h4 {
@@ -198,6 +195,54 @@ button:hover {
 }
 
 @media (max-width:695px) {
-    
-        /*switch to mobile*/
+     /*switch to mobile*/
+
+     
+     #project1-box1 {
+        margin-top: 10vh;
+        display: flex;
+        flex-direction: column;
+        height: 65vh;
+        width: 100%;
+    }
+
+    .wrapper2 {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        width: 100%;
+        height: 300vh;
+        z-index: 21;
+        box-shadow: 3px 1px 5px 5px rgb(63, 63, 63);
+    }
+
+    .project1-box1-left img {
+        width: 70vw;
+        height: 65vh;
+        object-fit: contain;
+    }
+
+    .project1-box1-right {
+        width: 70vw;
+        height: 65vh;
+        margin-left: 2vw;
+        background-color: red;
+        order:1;
+    }
+
+    .project1-box1-left {
+        width: 70vw;
+        height: 65vh;
+        margin-left: 2vw;
+        background-color: red;
+        order:2;
+    }
+
+    .section1 h1 {
+        font-size: 3em;
+    }
+
+    .section1 h5 {
+        font-size: 1.5em;
+    }
 }
