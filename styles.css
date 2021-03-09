@@ -269,7 +269,7 @@ button:hover {
     margin-bottom: 10vh;
 }
 .contact-form
-{
+{   
     max-width: 800px;
     margin: auto;
     padding: 0 10px;
@@ -284,10 +284,21 @@ button:hover {
     padding: 20px 40px;
     opacity: 40%;
     outline: none;
+    transition: 0.5s;
 }
 
+.contact-form-text:focus {
+    box-shadow: 0 0 10px 4px #7caa91;
+    background-color: #b1f4cf;
+    opacity: 60%;
+}
+
+textarea.contact-form-text {
+    resize: none;
+    height: 30vh;
+}
 .contact-form-button {
-    
+
 }
 
 @media (max-width:1200px) {
