@@ -311,6 +311,63 @@ textarea.contact-form-text {
     opacity: 50%;
 }
 
+
+/*page 2 (gallery)*/
+
+    .section1-gallery {
+        display: flex;
+        justify-content: center;
+        height: 500vh;
+        width: 100%;
+        background: linear-gradient(-45deg,#b1f4cf , #5bffa5, #9890e3,  #7667ff );
+        background-size: 400% 400%;
+        animation: gradient 15s ease infinite;
+    }
+
+    .gallery {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 300vh;
+        background: transparent;
+        flex-direction: column;
+    }
+    .gallery h4 {
+        padding-top: 20vh; 
+        width: 40px;
+        height: 40px;
+        background-color: red;
+    }
+
+    .gallery-photos
+    {
+        display: flex;
+        width: 95%;
+        height: 100%;
+        background-color: green;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        gap: 1vw;
+    }
+
+    .gallery-photos img {
+
+        width: 49.3%;
+        height: 50vh;
+    }
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width:1200px) {
     * {
         font-size: 15px;
