@@ -71,7 +71,7 @@ button {
 }
 
 button:hover {
-    background-color: #8ebda3
+    background-color: #8ebda3;
 }
 
 .section1 {
@@ -298,7 +298,17 @@ textarea.contact-form-text {
     height: 30vh;
 }
 .contact-form-button {
+    float: right;
+    border: 0;
+    background: #b1f4cf;
+    border-radius: 20px;
+    padding: 12px 50px;
+    cursor: pointer;
+}
 
+.contact-form-button:hover{
+    background-color: #8ebda3;
+    opacity: 50%;
 }
 
 @media (max-width:1200px) {
