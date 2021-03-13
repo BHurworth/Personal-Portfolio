@@ -15,28 +15,26 @@
     background-color: red;
 }
 
-.custom-shape-divider-top-1615669431 {
+.custom-shape-divider-bottom-1615669852 {
     position: absolute;
-    top: 0;
+    bottom: 0;
     left: 0;
     width: 100%;
     overflow: hidden;
     line-height: 0;
-    transform: rotate(180deg);
 }
 
-.custom-shape-divider-top-1615669431 svg {
+.custom-shape-divider-bottom-1615669852 svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 500px;
+    height: 135px;
     transform: rotateY(180deg);
 }
 
-.custom-shape-divider-top-1615669431 .shape-fill {
+.custom-shape-divider-bottom-1615669852 .shape-fill {
     fill: #FFFFFF;
 }
-
 header {
     position: fixed;
     width: 100%;
