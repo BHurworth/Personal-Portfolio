@@ -8,6 +8,34 @@
     scroll-behavior: smooth;
     font-size: 17px;
 }
+.wrapper{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: red;
+}
+
+.custom-shape-divider-top-1615669431 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1615669431 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 500px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1615669431 .shape-fill {
+    fill: #FFFFFF;
+}
 
 header {
     position: fixed;
@@ -75,6 +103,7 @@ button:hover {
 }
 
 .section1 {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,29 +111,7 @@ button:hover {
     width: 100%;
     flex-direction: column;
     background: linear-gradient(-45deg,#b1f4cf , #5bffa5, #9890e3,  #7667ff );
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
     font-family: 'Lato', sans-serif;
-}
-
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-
-
-
-    50% {
-        background-position: 100% 50%;
-    }
-
-    75% {
-        background-position: 235% 50%;
-    }
-
-    100% {
-        background-position: 0% 50%;
-    }
 }
 
 .section1 h1 {
@@ -132,10 +139,8 @@ button:hover {
     width: 70vw;
     background-color: transparent;
     position: absolute;
-    z-index: -1;
     left: 15vw;
     top: 35vh;
-    z-index: 0;
 }
 
 .wrapper2 {
@@ -427,8 +432,6 @@ textarea.contact-form-text {
         justify-content: center;
         width: 100%;
         height: 160vh;
-        z-index: 21;
-        box-shadow: 3px 1px 5px 5px rgb(63, 63, 63);
     }
 
     .project-wrapper {
