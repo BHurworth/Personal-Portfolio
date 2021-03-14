@@ -395,6 +395,7 @@ button:hover {
     justify-content: center;
     gap: 1vw;
     background-image: linear-gradient(to top, #fbc2eb 50%, #a18cd1 100%);
+    overflow: hidden;
 }
 .wrapper3 img {
     position: relative;
