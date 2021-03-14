@@ -1,13 +1,4 @@
 
-let tl = gsap.timeline({
-  scrollTrigger: {
-    trigger: '.section1'
-  }
-});
-
-  tl.from(".section1_img", { x: 200, opacity:0, duration: 1.5})
-  tl.from(".section1 h1", { x: -200, opacity:0, duration: 1.5}, '-=1.5')
-  tl.from(".section1 h5", { x: -200, opacity:0, duration: 1.5}, '-=1.5')
 
 
   let t2 = gsap.timeline({
@@ -62,6 +53,16 @@ let spinnerWrapper = document.querySelector('.spinner-wrapper');
 
  window.addEventListener('load', function(e) {
   spinnerWrapper.remove();
+  
+let tl = gsap.timeline({
+  scrollTrigger: {
+    trigger: '.section1'
+  }
+});
+
+  tl.from(".section1_img", { x: 200, opacity:0, duration: 1.5})
+  tl.from(".section1 h1", { x: -200, opacity:0, duration: 1.5}, '-=1.5')
+  tl.from(".section1 h5", { x: -200, opacity:0, duration: 1.5}, '-=1.5')
   });
 
 /*
