@@ -41,6 +41,9 @@
       });
       
         t5.from(".row3", { x: 1400, opacity:0, duration: 0.5},)
+  
+
+
 
 
 
