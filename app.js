@@ -22,9 +22,11 @@ let tl = gsap.timeline({
 
 
 
-  
+let spinnerWrapper = document.querySelector('.spinner-wrapper');
 
-
+ window.addEventListener('load', function(e) {
+  spinnerWrapper.remove();
+  });
 
 /*
 let elements = document.getElementsByClassName("links");  
