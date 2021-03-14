@@ -53,6 +53,7 @@ let spinnerWrapper = document.querySelector('.spinner-wrapper');
 
  window.addEventListener('load', function(e) {
   spinnerWrapper.remove();
+  document.querySelector(".nav-header").style.position = "fixed";
   
 let tl = gsap.timeline({
   scrollTrigger: {
