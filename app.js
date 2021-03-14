@@ -20,16 +20,7 @@ let tl = gsap.timeline({
     t2.from(".project1-box1-left img", { x: -800, opacity:0, duration: 0.5})
     t2.from(".project1-box1-right ", { x: 800, opacity:0, duration: 0.5}, '-=0.5')
 
-  let t3 = gsap.timeline({
-    scrollTrigger: {
-      trigger: 'wrapper3',
-      start:'top center',
-      scrub: 1,
-      marker: true,
-    }
-  });
 
-    t2.from(".wrapper img", { x: -800, opacity:0, duration: 0.5})
 
   
 
