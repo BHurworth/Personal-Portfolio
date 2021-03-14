@@ -114,25 +114,27 @@ button:hover {
 
 .section1 h1 {
     margin-left: 4vw;
-    font-size: 6em;
+    font-size: 8em;
     margin-top: -20vh;
     background-color: transparent;
     font-family: 'Montserrat', sans-serif;
-    color:   #ffffff;
+    color:   #6038bb;
+    color: white;
     z-index: 0;
-    text-transform: uppercase; 
+    text-transform: uppercase;
 }
 
 
 .section1 h5 {
+    color: white;
+    z-index: 0;
+    text-transform: uppercase; ;
     margin-left: 4.5vw;
     font-size: 2.7em;
     margin-top: 6vh;
     background-color: transparent;
     font-family: 'Montserrat', sans-serif;
-    color: white;
-    z-index: 0;
-    text-transform: uppercase;
+
 }
 
 .section1 img {
@@ -140,8 +142,9 @@ button:hover {
     width: 748px;
     background-color: transparent;
     position: absolute;
-    left: 50vw;
+    left: 60vw;
     top: 15vh;
+    z-index: 1;
 }
 
 .wrapper2 {
@@ -149,6 +152,7 @@ button:hover {
     justify-content: center;
     width: 100%;
     height: 80vh;
+    overflow: hidden;
 }
 
 .project-wrapper {
@@ -234,7 +238,7 @@ button:hover {
 
 .wrapper3 h1 {
     position: absolute;
-    top: 200px;
+    top: 160px;
     background-color: transparent;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
