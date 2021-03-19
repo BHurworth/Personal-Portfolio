@@ -740,6 +740,40 @@ textarea.contact-form-text {
    }
    
    .project1-box1-right p {
+       font-size: 1.2em;
+   }
+
+   .section1 h1 {
+       font-size: 3em;
+   }
+
+   .section1 h5 {
+       font-size: 1.7em;
+   }
+
+}
+
+@media (max-width:390px) {
+    /*switch to mobile*/
+
+    /*.project1-box2 {
+       height: 160vh;
+       width: 100%;
+       background-color: red;
+   }*/
+
+
+   .project1-box1-right h4 {
+       font-family: 'Montserrat', sans-serif;
+       font-size: 2.4em;
+       text-align: center;
+   }
+   
+   .project1-box1-right h5 {
+       font-size: 1.5em;
+   }
+   
+   .project1-box1-right p {
        font-size: 1em;
    }
 
@@ -752,6 +786,9 @@ textarea.contact-form-text {
    }
 
 }
+
+
+
 
 @media (max-width:350px) {
     /*switch to mobile*/
