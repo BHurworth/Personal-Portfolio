@@ -150,6 +150,7 @@ button:hover {
     flex-direction: column;
     background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
     font-family: 'Lato', sans-serif;
+    overflow: hidden;
 }
 
 
