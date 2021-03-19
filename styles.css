@@ -686,13 +686,11 @@ textarea.contact-form-text {
     flex-direction: column;
     height: 160vh;
     width: 97.5vw;
-    background-color: yellow;
     }
 
     .project1-box1-right {
         width: 95.5vw;
         height: 65vh;
-        background-color: grey;
         order:1;
     }
 
@@ -701,7 +699,6 @@ textarea.contact-form-text {
         align-items: flex-start;
         width: 97.5vw;
         height: 65vh;
-        background-color: pink;
         order:2;
     }
 
@@ -720,4 +717,72 @@ textarea.contact-form-text {
         bottom: 10px;
      
     }
+}
+
+@media (max-width:450px) {
+    /*switch to mobile*/
+
+    /*.project1-box2 {
+       height: 160vh;
+       width: 100%;
+       background-color: red;
+   }*/
+
+
+   .project1-box1-right h4 {
+       font-family: 'Montserrat', sans-serif;
+       font-size: 2.4em;
+       text-align: center;
+   }
+   
+   .project1-box1-right h5 {
+       font-size: 1.5em;
+   }
+   
+   .project1-box1-right p {
+       font-size: 1em;
+   }
+
+   .section1 h1 {
+       font-size: 2.5em;
+   }
+
+   .section1 h5 {
+       font-size: 1.5em;
+   }
+
+}
+
+@media (max-width:350px) {
+    /*switch to mobile*/
+
+    /*.project1-box2 {
+       height: 160vh;
+       width: 100%;
+       background-color: red;
+   }*/
+
+
+   .project1-box1-right h4 {
+       font-family: 'Montserrat', sans-serif;
+       font-size: 1.2em;
+       text-align: center;
+   }
+   
+   .project1-box1-right h5 {
+       font-size: 1.2em;
+   }
+   
+   .project1-box1-right p {
+       font-size: 0.9em;
+   }
+
+   .section1 h1 {
+       font-size: 2.5em;
+   }
+
+   .section1 h5 {
+       font-size: 1.5em;
+   }
+
 }
