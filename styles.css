@@ -592,10 +592,33 @@ textarea.contact-form-text {
 }
 
 @media (max-width:850px) {
-    * {
+    * { 
         font-size: 14px;
     }
+        .section1 h1 {
+            font-size: 4.7em;
+        }
+    
+        .section1 h5 {
+            font-size: 2.9em;
+        }
 }
+
+@media (max-width:760px) {
+    * { 
+        font-size: 14px;
+    }
+        .section1 h1 {
+            font-size: 3.9em;
+        }
+    
+        .section1 h5 {
+            font-size: 2.4em;
+        }
+}
+
+
+
 
 @media (max-width:695px) {
      /*switch to mobile*/
