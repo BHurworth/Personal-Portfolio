@@ -53,8 +53,22 @@
 
 
 
-    
+//const send = document.querySelector('.contact-form-button');
+//send.addEventListener('click', submitForm);
 
+//submitForm = () => alert('yo');
+
+document.querySelector(".contact-form-button").addEventListener('click', submitForm);
+
+function submitForm() {
+  const confirmation = document.createElement('div');
+  const text = document.createTextNode("Your message was sent");
+  confirmation.appendChild(text);
+  confirmation.className = "success";
+  document.querySelector('.contact-form').appendChild(confirmation);
+  console.log('yo');
+  setTimeout(function(){ confirmation.remove() }, 3000); 
+}
 
 
 let spinnerWrapper = document.querySelector('.spinner-wrapper');
